@@ -1,0 +1,335 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+    font-family: "sans-serif" ;
+    }
+
+img { 
+    max-width:100%; 
+    height:auto; 
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div{
+    display: block;
+}
+
+.top {
+    width: 100%;
+}
+
+.style {
+    width: 100%;
+}
+
+.mainview {
+    width: 100%;
+    padding-top: 70px;
+}
+
+
+/* ＝＝＝＝＝headerー＝＝＝＝＝ */
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 4%;
+    background-color:white;
+    position: fixed;
+    z-index: 5;
+}
+
+
+#header ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 30px;
+    padding-top: 10px;
+}
+
+#header li{
+    margin-left: 10px;
+}
+
+#header li img.icon01{
+    width: 60px;
+}
+
+#header li img.icon02{
+    width:60px;
+
+}
+
+.logo{
+    width: 90px;
+    padding-top: 10px;
+}
+
+
+
+/* .buttonErea01 {
+    width: 100%;
+} */
+
+
+/* 
+.btn01{
+    width: 49.2%;
+    /* bottom: 20px;  
+}
+
+.btn02{
+    width: 49.2%;
+} */
+
+/* ＝＝＝＝＝main＝＝＝＝＝ */
+
+.contents01 {
+    width: 100%;
+}
+
+.contents001 {
+    width: 100%;
+}
+
+.contents02 {
+    width: 100%;
+    position:relative;
+}
+
+.contents002 {
+    width: 100%;
+}
+
+.button_contact02{ 
+    position: absolute;
+    top: 55%;
+    left:50%;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+
+.contents03 {
+    width: 100%;
+}
+
+.contents003 {
+    width: 100%;
+}
+
+.contents04 {
+    width: 100%;
+    position: relative;
+}
+
+.contents004 {
+    width: 100%;
+}
+
+.button_contact04{ 
+    position: absolute;
+    top: 6%;
+    left:50%;
+    transform: translate(-50%);
+}
+
+
+
+.contents05 {
+    width: 100%;
+    position: relative;
+}
+
+.contents005 {
+    width: 100%;
+}
+
+.button_contact05{ 
+    position: absolute;
+    top: 85%;
+    left:50%;
+    transform: translate(-50%);
+}
+
+
+.contents06 {
+    width: 100%;
+}
+
+.contents006  {
+    width: 100%;
+}
+
+.contents07 {
+    width: 100%;
+}
+
+.contents007 {
+    width: 100%;
+}
+
+.contents08 {
+    width: 100%;
+}
+
+.contents008 {
+    width: 100%;
+}
+
+/* ＝＝＝＝＝contact＝＝＝＝＝ */
+
+#contact dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+#contact dt{
+    width: 15%;
+}
+
+#contact dd{
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea{
+    width: 80%;
+    background: #e9e9e9;
+    padding:10px;
+    border: solid 0px;
+}
+#contact dd textarea{
+    height: 40px;
+}
+
+#contact .button{
+    text-align: center;
+}
+
+.submit{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#contact .button input{
+    width: 200px;
+    background: #f5576c;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #f5576c;
+}
+
+.sec-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* ＝＝＝＝＝footer＝＝＝＝＝ */
+
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: #2e2e2e;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+#footer_text{
+    width: 100%;
+}
+
+.company{
+    font-size: 20px;
+    position: absolute;
+    top:50px;
+}
+
+.address{
+    font-size:10px;
+}
+
+.copyrights{
+    font-size: 8px;
+    position:absolute;
+    bottom:20px; left: 0;right:0;
+}
+
+
+@media screen and (max-width:600px){
+.wrapper{
+        margin-bottom:70px;
+    }
+}
+
+.sec-title{
+    margin-bottom:40px;
+}
+
+#contact dl{
+    flex-direction: column;
+}
+#contact dt{
+    width: 100%;
+}
+
+#contact dd{
+    width: 100%;
+}
